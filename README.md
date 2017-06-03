@@ -1,5 +1,5 @@
-# Saguaro Imageboard
-[Take a look at our demo boards!](http://saguaroimgboard.tk)
+# 3chan
+This is a fork of saguaro that is used on https://3chan.co/
 
 *something-or-other*    
 
