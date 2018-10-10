@@ -19,7 +19,9 @@ class Error {
             $upfile_name = $_FILES["upfile"]["name"];
 
             echo $head;
-            echo "<br><br><hr><br><br><div style='text-align:center;font-size:24px;font-color:#blue'>$mes<br><br><a href='" . PHP_SELF2_ABS . "'>" . S_RELOAD . "</a></div><br><br><hr>";
+            echo "<br><br><hr><br><br>";
+            echo "<div style='text-align:center;font-size:24px;font-color:#blue'>$mes<br><br><a href='" . PHP_SELF2_ABS . "'>" . S_RELOAD . "</a></div>";
+            echo "<br><br><hr>";
             die("</body></html>");
         }
     }
